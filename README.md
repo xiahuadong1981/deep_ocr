@@ -9,7 +9,9 @@ See [README_en.md](README_en.md) for English installation documentation.
 ```
 git clone https://github.com/JinpengLI/deep_ocr.git ~/deep_ocr
 virtualenv ~/deep_ocr_env
+# 在当前bash环境下读取并执行~/deep_ocr_env/bin/activate中的命令
 source ~/deep_ocr_env/bin/activate
+# 安装requirements
 pip install -r ~/deep_ocr/requirements.txt
 cd ~/deep_ocr && python setup.py install
 ```
