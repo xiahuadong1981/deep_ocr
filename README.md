@@ -7,12 +7,15 @@ See [README_en.md](README_en.md) for English installation documentation.
 只在ubuntu下面测试通过，需要virtualenv安装，安装路径可自行调整：
 
 ```
+# 下载代码
 git clone https://github.com/JinpengLI/deep_ocr.git ~/deep_ocr
+# 创建虚拟机
 virtualenv ~/deep_ocr_env
 # 在当前bash环境下读取并执行~/deep_ocr_env/bin/activate中的命令
 source ~/deep_ocr_env/bin/activate
 # 安装requirements
 pip install -r ~/deep_ocr/requirements.txt
+# 安装setup.py
 cd ~/deep_ocr && python setup.py install
 ```
 
